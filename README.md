@@ -1,7 +1,9 @@
-###### fireice-uk's and psychocrypt's
-# XMR-Stak - Cryptonight All-in-One Mining Software
+###### fork on fireice-uk's and psychocrypt's
+# XMR-Stak - Cryptonight All-in-One Mining Software, 
 
 XMR-Stak is a universal Stratum pool miner. This miner supports CPUs, AMD and NVIDIA GPUs and can be used to mine the crypto currencies Monero, Aeon and many more Cryptonight coins.
+
+This fork is aiming at mining on arm based machine, especially renectly the performance of arm cpus are pretty impressive and I found there are several arm dev boards and an Android app called termux, which runs on android system above 5.0, these emulator and real linux system can both compile xmrig and produce hashs, so I am going to compile xmr-stak with slightly higher performance than it.   
 
 ## HTML reports
 <img src="https://gist.githubusercontent.com/fireice-uk/2da301131ac01695ff79539a27b81d68/raw/4c09cdeee86f94df2e9dd86b927e64aded6184f5/xmr-stak-cpu-hashrate.png" width="260"> <img src="https://gist.githubusercontent.com/fireice-uk/2da301131ac01695ff79539a27b81d68/raw/4c09cdeee86f94df2e9dd86b927e64aded6184f5/xmr-stak-cpu-results.png" width="260"> <img src="https://gist.githubusercontent.com/fireice-uk/2da301131ac01695ff79539a27b81d68/raw/4c09cdeee86f94df2e9dd86b927e64aded6184f5/xmr-stak-cpu-connection.png" width="260">
